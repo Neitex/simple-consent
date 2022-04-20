@@ -12,6 +12,11 @@ It is **very** easy to use.
 
 That's it. Literally one argument - your prompt. Program will add ` [y/N]: ` automatically.
 
+Default return codes:
+  - 0: user aggreed
+  - 1: user disagreed
+  - 64: invalid argument list is provided
+
 ## Compiling
 
 ```bash
